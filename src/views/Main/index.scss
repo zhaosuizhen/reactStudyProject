@@ -1,0 +1,154 @@
+.titleBox{
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    .searchBox{
+        position: relative;
+        width: 85%;
+        height: 100%;
+        background: #FAFAFA;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        .text{
+            position: relative;
+            width: 22%;
+            height: 100%;
+            overflow: hidden;
+            p{
+                position: relative;
+                text-align: center;
+                line-height: 20px;
+                top: 10px;
+                border-right: 1px solid #ccc;
+                font-size: 16px;
+                .icon-arrow-down-filling{
+                    vertical-align: middle;
+                    font-size: 12px !important;
+                }
+            }
+        }
+        .input{
+            width: 78%;
+            height: 100%;
+            .am-search {
+                height: 100% !important;
+                // padding: 0;
+                overflow: hidden;
+                border-radius: 20px;
+                background: #FAFAFA;
+            }
+        }
+    }
+    .mapImg{
+        width: 10%;
+        height: 100%;
+        i{
+            font-size: 30px !important;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
+}
+.navBox{
+    background: #fff;
+    padding: 10px 0;
+    .navItem{
+        text-align: center;
+        img{
+            width: 50px;
+        }
+    }
+}
+.group{
+    margin-top: 15px;
+    padding: 0 10px;
+    .groupTitle{
+        display: flex;
+        margin-bottom: 15px;
+        justify-content: space-between;
+        padding: 0 5px;
+        h3{
+            font-size: 16px;
+        }
+        span{
+            font-size: 14px;
+            color: #999;
+        }
+    }
+    .groupItem{
+        position: relative;
+        width: 80%;
+        left: 10%;
+        display: flex;
+        .text{
+            h4{
+                font-size: 14px;
+            }
+            p{
+                font-size: 12px;
+                color: #999;
+                margin-top: 5px;
+            }
+        }
+        img{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 35%;
+        }
+    }
+    .am-flexbox {
+        margin-bottom: 10px;
+        background-color: #F6F5F6 !important;
+        .am-grid-item {
+            margin-right: 0;
+            background-color: #fff !important;
+            &:first-child {
+                margin-right: 10px;
+            }
+        }
+        .am-grid-item-content{
+            padding:25px 0 !important;
+        }
+    }
+}
+.news{
+    background: #fff;
+    padding: 0 10px 50px;
+    .newsTitle{
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+    .newsItem{
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+        img{
+            width: 35%;
+            display: block;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 10px;
+            h3{
+                font-size: 14px;
+            }
+            div{
+                display: flex;
+                justify-content: space-between;
+                font-size: 12px;
+                color: #9c9fa1;
+            }
+        }
+    }
+}

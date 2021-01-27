@@ -1,0 +1,13 @@
+.home{
+    height: 100%;
+}
+.tabBarBox{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+.iconfont{
+    font-size: 22px !important;
+}
